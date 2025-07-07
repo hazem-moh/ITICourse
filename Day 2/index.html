@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Express - Order Online</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <a href="#">Home</a> |
+            <a href="#">Menu</a> |
+            <a href="#">Order Now</a> |
+            <a href="#">About Us</a>
+        </div>
+        <br>
+
+        <h1>Pizza Express - Fast Delivery Service</h1>
+        <p>Our 14" wood-fired pizzas are ready for pickup or delivery. Create your perfect pizza and we'll have it ready
+            in 30 minutes!</p>
+        <br>
+
+        <form>
+            <h3>Your Contact Information</h3>
+            <br>
+
+            <div>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <br>
+
+            <div>
+                <label for="address">Delivery Address:</label>
+                <input type="text" id="address" name="address">
+            </div>
+            <br>
+
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone">
+            </div>
+            <br>
+
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <br>
+
+            <div>
+                <label for="instructions">Special Instructions:</label>
+                <textarea id="instructions" name="instructions"
+                    placeholder="Any special requests or delivery notes..."></textarea>
+            </div>
+            <br><br>
+
+            <div><strong>Create Your Perfect Pizza:</strong></div>
+            <br>
+
+            <div>
+                <strong>Pizza Base (Select one):</strong>
+                <div>
+                    <label><input type="radio" name="crust" value="thin"> Thin & Crispy</label><br>
+                    <label><input type="radio" name="crust" value="thick"> Thick Crust</label><br>
+                    <label><input type="radio" name="crust" value="stuffed"> Cheese Stuffed Crust</label><br>
+                    <label><input type="radio" name="crust" value="wholemeal"> Whole Wheat Base</label><br>
+                </div>
+            </div>
+            <br>
+
+            <div>
+                <strong>Premium Toppings (Select as many as you like):</strong>
+                <div>
+                    <label><input type="checkbox" name="toppings" value="marinara"> Marinara Sauce</label><br>
+                    <label><input type="checkbox" name="toppings" value="bbq"> BBQ Sauce</label><br>
+                    <label><input type="checkbox" name="toppings" value="cheese"> Extra Cheese</label><br>
+                    <label><input type="checkbox" name="toppings" value="salami"> Salami</label><br>
+                    <label><input type="checkbox" name="toppings" value="olives"> Black Olives</label><br>
+                    <label><input type="checkbox" name="toppings" value="bacon"> Crispy Bacon</label><br>
+                    <label><input type="checkbox" name="toppings" value="spinach"> Fresh Spinach</label><br>
+                </div>
+            </div>
+            <br>
+
+            <div>
+                <strong>Quantity:</strong><br>
+                How many pizzas: <input type="number" min="1" max="10" value="1">
+            </div>
+            <br><br>
+
+            <div>
+                <button type="submit">Place My Order!</button>
+                <button type="reset">Clear Form</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
